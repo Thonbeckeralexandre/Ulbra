@@ -1,0 +1,100 @@
+body{
+    background-color:#333031;
+}
+
+.big_square{
+    background-color:#847C7F; 
+    margin-left:3%; 
+    margin-top:3%; 
+    margin-bottom:3%; 
+    margin-right:3%; 
+    border-radius: 1%; 
+    height: 1000px;
+}
+
+.big_square .foto_perfil{
+    width:17%; 
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 25px;
+}
+
+.big_square .nome{
+    color:#333031;
+    font-family:Arial;
+    text-align: center;
+    font-size: 350%;
+}
+
+.tres_quadrados{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+.tres_quadrados .quem_div{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.tres_quadrados .quem_div h1{
+    color:#333031;
+    font-family: Arial;
+    text-align: center;
+}
+
+.tres_quadrados .quem_div p{
+    color: #333031;
+    font-family: Arial;
+    font-size: 160%;
+    text-align: justify;
+}
+
+.tres_quadrados .informacoes_div{
+    height: 100%;
+    width: 25%;
+    float: right;
+}
+
+.tres_quadrados .informacoes_div h1{
+    color:#333031;
+    font-family: Arial;
+    text-align: center;
+}
+
+.tres_quadrados .informacoes_div ul{
+    font-size: 150%;
+    font-family: Arial;
+    color:#333031;
+}
+
+.tres_quadrados .links{
+    height: 100%;
+    width: 25%;
+    float: right;
+    text-align: center;
+}
+
+.tres_quadrados .links a img{
+    width: 100px; 
+    height: 100px;
+}
+
+.tres_quadrados .links a .img_face{
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+.tres_quadrados .links a .img_insta{
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+.tres_quadrados .links a .img_email{
+    margin-top: 10px;
+}

@@ -1,0 +1,385 @@
+body{
+    background-color: #3E606F;
+}
+
+.titulo{
+    background-color: #CBDBD7;
+    height: 80px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Segoe UI';
+    color: #193441;
+}
+
+.faixa_um{
+    width: 90%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.faixa_um .foto{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.faixa_um .foto img{
+    height: 100%;
+    border-radius: 5%;
+    margin-left: 200px;
+
+}
+
+.faixa_um .infos{
+    background-color: #CBDBD7;
+    width: 50%;
+    height: 100%;
+    float: right;
+    border-radius: 2%;
+    margin-right: 200px;
+}
+
+.faixa_um .infos .endereco{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 27%;
+}
+
+.faixa_um .infos .endereco .endereco_dois{
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;
+    font-weight: bold;        
+}
+
+.faixa_um .infos .endereco .endereco_tres{
+    margin-left: 5px;
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;
+}
+
+.faixa_um .infos .telefone{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 27%;
+}
+
+.faixa_um .infos .telefone .telefone_dois{
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;
+    font-weight: bold;        
+}
+
+.faixa_um .infos .telefone .telefone_tres{
+    margin-left: 5px;
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;
+}
+
+.faixa_um .infos .email{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 27%;
+}
+
+.faixa_um .infos .email .email_dois{
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;
+    font-weight: bold;        
+}
+
+.faixa_um .infos .email .email_tres{
+    margin-left: 5px;
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;
+}
+
+.faixa_dois{
+    width: 80%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #CBDBD7;
+}
+
+.faixa_dois .objetivos{
+    height: 25%;
+}
+
+.faixa_dois .objetivos_um{
+    height: 75%;
+}
+
+.faixa_dois .objetivos h1{
+    font-family: 'Segoe UI';
+    font-size: 180%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 2%;
+
+}
+
+.faixa_dois .objetivos_um p{
+    font-family: 'Segoe UI';
+    font-size: 159%;
+    color: #193441;
+    margin-left: 40px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+.faixa_tres{
+    width: 80%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #CBDBD7;
+}
+
+.faixa_tres .formacao{
+    height: 15%;
+}
+
+.faixa_tres .formacao h1{
+    font-family: 'Segoe UI';
+    font-size: 180%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 2%;    
+}
+
+.faixa_tres .economia{
+    height: 15%;
+    flex-direction: row;
+    padding: 1%;
+    margin-left: 40px;
+    
+}
+
+.faixa_tres .economia h1{
+    font-family: 'Segoe UI';
+    font-size: 170%;
+    color: #193441;
+    font-weight: bold;
+}
+
+.faixa_tres .economia p{
+    margin-left: 7px;
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;    
+}
+
+.faixa_tres .dev{
+    height: 15%;
+    flex-direction: row;
+    padding: 1%;
+    margin-left: 40px;
+}
+
+.faixa_tres .dev h1{
+    font-family: 'Segoe UI';
+    font-size: 170%;
+    color: #193441;
+    font-weight: bold;    
+}
+
+.faixa_tres .dev p{
+    font-family: 'Segoe UI';
+    font-size: 140%;
+    color: #193441;  
+}
+
+.faixa_quatro{
+    width: 80%;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    background-color: #3E606F;
+    justify-content: space-around;
+    display: flex; 
+}
+
+.faixa_quatro .esquerda{
+    float: left;
+    width: 49%;
+    height: 100%;
+    background-color: #CBDBD7;
+}
+
+.faixa_quatro .esquerda .esquerda_um{
+    height: 35%;
+    border-bottom-style: solid;
+    border-bottom-color: #3E606F;
+}
+
+.faixa_quatro .esquerda .esquerda_um h1{
+    font-family: 'Segoe UI';
+    font-size: 180%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 40px;
+    display: block;     
+}
+
+.faixa_quatro .esquerda .esquerda_um div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.faixa_quatro .esquerda .esquerda_um p{
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.faixa_quatro .esquerda .esquerda_um .dot{
+    background-color: #193441;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 26px;
+    margin-bottom: auto;
+}
+
+.faixa_quatro .esquerda .esquerda_dois{
+    height: 38%;
+    border-bottom-style: solid;
+    border-bottom-color: #3E606F;
+}
+
+.faixa_quatro .esquerda .esquerda_dois h1{
+    font-family: 'Segoe UI';
+    font-size: 180%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 40px;
+    display: block;     
+}
+
+.faixa_quatro .esquerda .esquerda_dois div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.faixa_quatro .esquerda .esquerda_dois p{
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.faixa_quatro .esquerda .esquerda_dois .dot{
+    background-color: #193441;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 26px;
+    margin-bottom: auto;  
+}
+
+.faixa_quatro .esquerda .esquerda_tres{
+    height: 27%;
+}
+
+.faixa_quatro .esquerda .esquerda_tres h1{
+    font-family: 'Segoe UI';
+    font-size: 180%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 40px;
+    display: block;
+}
+
+.faixa_quatro .esquerda .esquerda_tres li{
+    margin-left: 7px;
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    color: #193441;  
+}
+
+.faixa_quatro .direita{
+    float: right;
+    width: 49%;
+    height: 68%;
+    background-color: #CBDBD7;        
+}
+
+.faixa_quatro .direita h1{
+    font-family: 'Segoe UI';
+    font-size: 180%;
+    color: #193441;
+    font-weight: bold;
+    margin-left: 40px;
+    display: block;    
+}
+
+.faixa_quatro .direita li{
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    color: #193441;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: block;
+    text-align: justify; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #CBDBD7
+#193441
+#3E606F */
