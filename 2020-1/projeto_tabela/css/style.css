@@ -1,0 +1,96 @@
+/* all */
+
+body{
+    font-family: 'Segoe UI';
+    margin: auto 0px;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover{
+    color: black;
+}
+
+hr{
+    margin-top: 0px;
+    border-color: black;
+    margin-bottom: 0px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.780);
+    color: white;
+}
+
+.link{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+.link:hover{
+    background-color: white;
+}
+
+.header .banner_one{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.header .banner_one .bottom{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+#camp{
+    margin-left: 10px;
+    padding: 1px;
+}
+
+/* rating */
+
+.body_one .chose_cup{
+    display: inline-block;
+    font-size: 15px;
+    width: 100%;
+}
+
+#cup_one{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#cup_two{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.body_one{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+
+#cup_one:hover{
+    background-color: rgba(255, 0, 0, 0.780);
+    color: white;
+}
+
+#cup_two:hover{
+    background-color: rgba(255, 0, 0, 0.780);
+    color: white    ;
+}

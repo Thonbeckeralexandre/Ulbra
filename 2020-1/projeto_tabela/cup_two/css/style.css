@@ -1,0 +1,105 @@
+/* all */
+
+body{
+    font-family: 'Segoe UI';
+    margin: auto 0px;
+    color: white;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover{
+    color: black;
+}
+
+hr{
+    margin-top: 0px;
+    border-color: black;
+    margin-bottom: 0px;
+}
+
+.header{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.780);
+}
+
+.link{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+.link:hover{
+    background-color: white;
+}
+
+.header .banner_one{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.header .banner_one .bottom{
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+#camp{
+    margin-left: 10px;
+    padding: 1px;
+}
+
+/* cup_one */
+
+img{
+    height: 80%;
+}
+
+table{
+    width: 99%;
+    background-color: white;
+    color: black !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+th, td{
+    text-align: center;
+    width: 5%;
+    height: 40px;
+    border-bottom: solid 1px;
+}
+
+.table_one{
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0.780);
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    display: block;
+    height:777px;
+    border-color: black;
+    text-align: center;
+}
+
+.club{
+    width: 55% !important;
+    text-align: left !important;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.group{
+    font-size: 19px;
+    padding: 1px;
+    margin-left: 15px;
+}
