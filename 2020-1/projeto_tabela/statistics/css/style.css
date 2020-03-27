@@ -86,6 +86,7 @@ table{
     width: 100%;
     background-color: white;
     color: black;
+    border-collapse: collapse;
 }
 
 th{
@@ -95,7 +96,6 @@ th{
 
 .right{
     width: 5%;
-    vertical-align: ;
     text-align: center; 
 }
 

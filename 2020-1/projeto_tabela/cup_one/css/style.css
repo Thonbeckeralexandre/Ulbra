@@ -69,6 +69,7 @@ table{
     color: black !important;
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse;
 }
 
 
@@ -103,7 +104,6 @@ th, td{
     font-size: 19px;
     padding: 1px;
     margin-left: 15px;
-
 }
 
 
