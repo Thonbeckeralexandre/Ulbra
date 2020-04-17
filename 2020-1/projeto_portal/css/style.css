@@ -1,5 +1,6 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Segoe UI';
+    color: white;
 }
 
 body {
@@ -34,7 +35,7 @@ article {
     background-color: #ff7d55;
     padding: 20px;
     margin-top: 45px;
-    height: 825px;
+    height: 843px;
 }
 
 footer {
@@ -43,6 +44,10 @@ footer {
     text-align: center;
     color: white;
     clear: both;
+}
+
+h2 {
+    border-bottom: white solid 3px;
 }
 
 .noticia {
@@ -59,13 +64,15 @@ footer {
 }
 
 .content h5 {
-    color: rgb(0, 0, 0);
     margin-left: 20px;
+    font-size: 130%;
+    margin-bottom: 0px;
 }
 
 .content p {
-    font-size: large;
-    margin-left: 20px;
+    font-size: 150%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .img {
@@ -75,7 +82,86 @@ footer {
 }
 
 .img img {
-    height: 195px;
+    height: 196px;
+    width: 292px;
 }
 
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+.footer img {
+    height: 70%;
+}
+
+.footer p {
+    text-align: justify;
+    color: white;
+}
+
+.social {
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 20px;
+    
+}
+
+.column {
+    display: flex;
+    border-bottom: white solid 3px;
+    height: 30%;
+}
+
+.column img {
+    height: 100px;
+    border-radius: 50%;
+    float: right;
+}
+
+.column h3 {
+    font-size: 140%;
+    font-weight: normal;
+    padding: 5px;
+    text-align: center;
+}
+
+.column h5 {
+    font-size: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+.column_left {
+    float: left;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: italic;
+}
+
+.column_right {
+    float: right;
+    width: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#gaucha {
+    width: 40%;
+    padding: 25px;
+}
+
+#frase {
+    width: 35%;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: italic;
+} 
 
