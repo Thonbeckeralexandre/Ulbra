@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cáculadora</title>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='./style.css'>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <label for="soper">Operação desejada:</label>
+        <select id="esc">
+            <option value="n">Escolha</option>
+            <option value="+">Soma</option>
+            <option value="-">Subtração</option>
+            <option value="*">Multiplicação</option>
+            <option value="/">Divisão</option>
+        </select>
+        <br>
+        <br>
+        <input type="text" id="none">
+        <br>
+        <br>        
+        <input type="text" id="ntwo">
+        <br>
+        <br>
+        <button onclick="calcular()">Resultado</button>
+        <br>
+        <br>
+        <label id="result"></label>
+    </div>
+    
+</body>
+</html>
